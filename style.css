@@ -1,0 +1,93 @@
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 38, 82), rgba(0, 0, 0, 0.5)), url('assets/hero-bg.jpg') no-repeat center center/cover;
+}
+
+.hero-section img {
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+    object-position: top;
+}
+
+.hero-section img:hover {
+    transform: scale(1.1); 
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section .btn-info {
+    background-color: #17a2b8;
+    border: none;
+    color: whitesmoke;
+    transition: ease-in-out;
+}
+
+.hero-section .btn-info:hover {
+    background-color: #138f99;
+    color: whitesmoke;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ddd;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(255, 255, 255); 
+    color: #000000;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #138f99;
+}
+
+footer {
+    background-color: #222;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
